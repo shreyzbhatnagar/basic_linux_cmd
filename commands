@@ -1,0 +1,5 @@
+In ORDER TO MOUNT A DRIVE IN LINUX FOLLOW THIS INSTRUCTIONS
+1) Create a mount point by 
+    > sudo mkdir /media/drive_name
+2) mount your drive by
+    > sudo mount -r /dev/sda5 /media/drive_name
