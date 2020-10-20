@@ -3,3 +3,6 @@ In ORDER TO MOUNT A DRIVE IN LINUX FOLLOW THIS INSTRUCTIONS
     > sudo mkdir /media/drive_name
 2) mount your drive by
     > sudo mount -r /dev/sda5 /media/drive_name
+    
+3) Search for a file in a dir
+    > ls | grep <file_name>
